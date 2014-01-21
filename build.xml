@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<project name="HelloWorld" default="run" basedir=".">
+<project name="HelloWorld" basedir=".">
+<!--use the Environmental prefix to pull in all environmental variables as properties right inside your build.xml file-->
+<property environment="env"/>
+<property name="workspace" value="${env.WORKSPACE}"/>
+<!--The other way is add "workspace=$WORKSPACE" to properties for ant-->
 	<echo message="Current workspace is ${workspace}" /> 
 </project>
