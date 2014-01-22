@@ -1,6 +1,8 @@
 helloworld
 ==========
 
+Change the git hook url from https to ssh.
+
 Never loss your faith.
 
 I am stuck at where I am. 
