@@ -1,6 +1,8 @@
 helloworld
 ==========
 
+Add echo "executing post-commit" to both files.
+
 Change !/bin/bash curl --user admin:admin -s \
 
 Remove jenkins/ from hook url.
